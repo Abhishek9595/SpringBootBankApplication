@@ -595,3 +595,60 @@ Unconditional classes:
 2021-11-26 11:15:11,422  [http-nio-8080-exec-1]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
 2021-11-26 11:15:11,435  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
 2021-11-26 11:15:11,450  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 14 ms 
+2021-11-26 12:08:48,833  [RMI TCP Connection(2)-127.0.0.1]  [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-11-26 12:08:49,434  [RMI TCP Connection(2)-127.0.0.1]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 12:08:49,689  [RMI TCP Connection(2)-127.0.0.1]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Shutdown initiated... 
+2021-11-26 12:08:49,693  [RMI TCP Connection(2)-127.0.0.1]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Shutdown completed. 
+2021-11-26 12:16:20,745  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 1104 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 12:16:20,746  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 12:16:20,964  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-26 12:16:20,965  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-26 12:16:23,864  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 12:16:24,203  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 154 ms. Found 3 JPA repository interfaces. 
+2021-11-26 12:16:26,721  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 12:16:26,782  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 12:16:26,783  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 12:16:27,050  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 12:16:27,051  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 6084 ms 
+2021-11-26 12:16:27,718  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 12:16:27,967  [restartedMain]  [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-11-26 12:16:28,523  [restartedMain]  [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-11-26 12:16:28,916  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-11-26 12:16:29,368  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-11-26 12:16:29,501  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 12:16:32,827  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 12:16:32,861  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 12:16:33,808  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 12:16:34,797  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 12:16:34,798  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 12:16:34,799  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 12:16:34,799  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 12:16:34,800  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 12:16:34,800  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 12:16:34,842  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f68372d, org.springframework.security.web.context.SecurityContextPersistenceFilter@434a683c, org.springframework.security.web.header.HeaderWriterFilter@71d83fa0, org.springframework.security.web.authentication.logout.LogoutFilter@56283f47, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@2f7968de, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@538f0f9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@235a340b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50643736, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28e04ac8, org.springframework.security.web.session.SessionManagementFilter@123f1d54, org.springframework.security.web.access.ExceptionTranslationFilter@9a769fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b807ffd] 
+2021-11-26 12:16:34,898  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 12:16:35,276  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 12:16:35,753  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 12:16:35,755  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 12:16:35,810  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 12:16:35,851  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 12:16:36,204  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 16.34 seconds (JVM running for 18.441) 
+2021-11-26 12:17:08,830  [http-nio-8080-exec-2]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-26 12:17:08,833  [http-nio-8080-exec-2]  [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-11-26 12:17:08,837  [http-nio-8080-exec-2]  [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-11-26 12:17:08,871  [http-nio-8080-exec-2]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Abhi And Password Is Abhishek@123 
+2021-11-26 12:17:55,920  [http-nio-8080-exec-3]  [36mc.t.s.c.AdminController[0;39m - FETCHED SUCCESSFULLY.... 
+2021-11-26 12:17:56,059  [http-nio-8080-exec-3]  [36mc.t.s.s.AdminServiceImpl[0;39m - SUCCESSFULLY FETCHED.... 
+2021-11-26 12:18:30,516  [http-nio-8080-exec-4]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Sachin20 And Password Is Abhishek@123 
+2021-11-26 12:19:42,985  [http-nio-8080-exec-6]  [36mc.t.s.c.CustomerController[0;39m - 1.0 SUCCESSFULLY DEPOSITED   
+2021-11-26 12:19:42,999  [http-nio-8080-exec-6]  [36mc.t.s.s.CustomerServiceImpl[0;39m - AMOUNT MUST BE MULTIPLE OF 100.... 
+2021-11-26 12:19:43,010  [http-nio-8080-exec-6]  [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.technoelevate.springboot.exception.CustomerException: AMOUNT MUST BE MULTIPLE OF 100....] 
+2021-11-26 12:19:51,565  [http-nio-8080-exec-8]  [36mc.t.s.c.CustomerController[0;39m - 100.0 SUCCESSFULLY DEPOSITED   
+2021-11-26 12:20:22,512  [http-nio-8080-exec-9]  [36mc.t.s.c.CustomerController[0;39m - 2000.0 SUCCESSFULLY WITHDRAWN 
+2021-11-26 12:20:56,132  [http-nio-8080-exec-10]  [36mc.t.s.c.CustomerController[0;39m - 2500.0 SUCCESSFULLY DEPOSITED   
+2021-11-26 12:28:12,373  [http-nio-8080-exec-3]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Dravid20 And Password Is Abhishek@123 
+2021-11-26 12:28:37,748  [http-nio-8080-exec-4]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Virat20 And Password Is Abhishek@123 
+2021-11-26 12:29:01,981  [http-nio-8080-exec-5]  [36mc.t.s.c.CustomerController[0;39m - 2200.0 SUCCESSFULLY WITHDRAWN 
+2021-11-26 12:33:40,341  [http-nio-8080-exec-1]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Virat20 And Password Is Abhishek@123 
+2021-11-26 12:36:02,610  [http-nio-8080-exec-5]  [36mc.t.s.c.CustomerController[0;39m - 700.0 SUCCESSFULLY WITHDRAWN 
+2021-11-26 12:37:20,473  [http-nio-8080-exec-8]  [36mc.t.s.c.CustomerController[0;39m - 1600.0 SUCCESSFULLY DEPOSITED   
