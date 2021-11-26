@@ -592,3 +592,6 @@ Unconditional classes:
 
 
  
+2021-11-26 11:15:11,422  [http-nio-8080-exec-1]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-26 11:15:11,435  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-11-26 11:15:11,450  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 14 ms 
