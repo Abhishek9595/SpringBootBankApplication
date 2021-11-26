@@ -1,0 +1,594 @@
+2021-11-26 09:36:14,272  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 2904 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:36:14,282  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:36:15,587  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-26 09:36:15,588  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-26 09:36:19,863  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:36:20,072  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 192 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:36:23,020  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:36:23,104  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:36:23,105  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:36:23,455  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:36:23,456  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 7861 ms 
+2021-11-26 09:36:24,480  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:36:24,788  [restartedMain]  [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-11-26 09:36:25,560  [restartedMain]  [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-11-26 09:36:26,127  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-11-26 09:36:27,012  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-11-26 09:36:27,210  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:36:30,393  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:36:30,437  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:36:32,351  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:36:34,337  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:36:34,338  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:36:34,339  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:36:34,339  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:36:34,340  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:36:34,340  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:36:34,402  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@623080f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ac90a3a, org.springframework.security.web.header.HeaderWriterFilter@3520a9f0, org.springframework.security.web.authentication.logout.LogoutFilter@11934c01, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@7e7dfe25, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@3221a3d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27813114, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e0d9167, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48371526, org.springframework.security.web.session.SessionManagementFilter@4f6a3126, org.springframework.security.web.access.ExceptionTranslationFilter@16feb7c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5144d761] 
+2021-11-26 09:36:34,476  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:36:35,060  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:36:35,685  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:36:35,687  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:36:35,770  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:36:35,841  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:36:36,446  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 25.089 seconds (JVM running for 28.933) 
+2021-11-26 09:37:10,864  [http-nio-8080-exec-1]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-26 09:37:10,865  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-11-26 09:37:10,868  [http-nio-8080-exec-1]  [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-11-26 09:43:34,628  [http-nio-8080-exec-7]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Abhi And Password Is Abhishek@123 
+2021-11-26 09:44:16,386  [http-nio-8080-exec-10]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Abhi And Password Is Abhishek@123 
+2021-11-26 09:44:30,769  [http-nio-8080-exec-1]  [36mc.t.s.f.CustomerAuthenticationFilter[0;39m - Username is Dravid20 And Password Is Abhishek@123 
+2021-11-26 09:45:46,427  [Thread-4]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:45:46,446  [Thread-4]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-11-26 09:45:46,461  [Thread-4]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-11-26 09:45:46,771  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 2904 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:45:46,771  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:45:47,685  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:45:47,702  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:45:48,144  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:45:48,145  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:45:48,145  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:45:48,221  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:45:48,222  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1440 ms 
+2021-11-26 09:45:48,313  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:45:48,322  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-11-26 09:45:48,327  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-11-26 09:45:48,328  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:45:49,293  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:45:49,294  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:45:49,526  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:45:49,743  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:45:49,743  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:45:49,744  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:45:49,745  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:45:49,745  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:45:49,746  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:45:49,762  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a0e54b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@215c0776, org.springframework.security.web.header.HeaderWriterFilter@2e8bcce4, org.springframework.security.web.authentication.logout.LogoutFilter@51ebb5e7, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@ac28237, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@4dd40b54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c886c88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c947511, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59b9695f, org.springframework.security.web.session.SessionManagementFilter@30f390dc, org.springframework.security.web.access.ExceptionTranslationFilter@74d4e83, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50a88a23] 
+2021-11-26 09:45:49,772  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:45:49,899  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:45:49,993  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:45:49,994  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:45:49,996  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:45:50,006  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:45:50,073  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 3.425 seconds (JVM running for 582.56) 
+2021-11-26 09:45:50,077  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-11-26 09:48:24,770  [RMI TCP Connection(2)-127.0.0.1]  [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-11-26 09:48:24,827  [RMI TCP Connection(2)-127.0.0.1]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:48:24,829  [RMI TCP Connection(2)-127.0.0.1]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-11-26 09:48:24,837  [RMI TCP Connection(2)-127.0.0.1]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-11-26 09:49:26,107  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:49:26,110  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:49:26,269  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-26 09:49:26,270  [restartedMain]  [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-26 09:49:27,945  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:49:28,082  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 119 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:49:29,851  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:49:29,879  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:49:29,880  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:49:30,265  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:49:30,267  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3996 ms 
+2021-11-26 09:49:31,032  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:49:31,434  [restartedMain]  [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-11-26 09:49:32,194  [restartedMain]  [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-11-26 09:49:32,593  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-11-26 09:49:32,886  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-11-26 09:49:32,986  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:49:35,572  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:49:35,643  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:49:36,440  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:49:37,245  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:49:37,246  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:49:37,247  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:49:37,247  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:49:37,248  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:49:37,248  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:49:37,289  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@207137bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@142081, org.springframework.security.web.header.HeaderWriterFilter@49f8a482, org.springframework.security.web.authentication.logout.LogoutFilter@6f9b368e, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@13dfd272, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@351e7895, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fdf5d25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c145254, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72a628d2, org.springframework.security.web.session.SessionManagementFilter@7c83dbd6, org.springframework.security.web.access.ExceptionTranslationFilter@4af96329, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@605c3e33] 
+2021-11-26 09:49:37,333  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:49:37,645  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:49:37,965  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:49:37,967  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:49:38,045  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:49:38,096  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:49:38,358  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 13.096 seconds (JVM running for 14.438) 
+2021-11-26 09:50:09,580  [main]  [36mc.t.s.CustomerTestService[0;39m - Starting CustomerTestService using Java 15.0.2 on ABHI with PID 4088 (started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:50:09,585  [main]  [36mc.t.s.CustomerTestService[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:50:11,438  [main]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:50:11,568  [main]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:50:14,167  [main]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:50:14,543  [main]  [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-11-26 09:50:14,939  [main]  [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-11-26 09:50:15,430  [main]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-11-26 09:50:15,945  [main]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-11-26 09:50:16,075  [main]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:50:19,103  [main]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:50:19,128  [main]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:50:20,597  [main]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:50:22,871  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:50:22,872  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:50:22,872  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:50:22,873  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:50:22,874  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:50:22,874  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:50:23,000  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c4940d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@d319d2c, org.springframework.security.web.header.HeaderWriterFilter@5c815478, org.springframework.security.web.authentication.logout.LogoutFilter@48d84d75, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@524241d9, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@6f55aef7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5add0cc0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7806db3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69c7fe78, org.springframework.security.web.session.SessionManagementFilter@4c9235c0, org.springframework.security.web.access.ExceptionTranslationFilter@526a1b51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25bbca43] 
+2021-11-26 09:50:23,096  [main]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:50:25,010  [main]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:50:25,097  [main]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:50:25,191  [main]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:50:25,550  [main]  [36mc.t.s.CustomerTestService[0;39m - Started CustomerTestService in 16.854 seconds (JVM running for 26.461) 
+2021-11-26 09:50:25,764  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:50:25,799  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:50:25,815  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:50:25,824  [main]  [36mo.s.t.c.s.DefaultTestContextBootstrapper[0;39m - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.technoelevate.springboot.AdminTestService], using DelegatingSmartContextLoader 
+2021-11-26 09:50:25,825  [main]  [36mo.s.t.c.s.AbstractContextLoader[0;39m - Could not detect default resource locations for test class [com.technoelevate.springboot.AdminTestService]: no resource found for suffixes {-context.xml}. 
+2021-11-26 09:50:25,826  [main]  [36mo.s.t.c.s.AnnotationConfigContextLoaderUtils[0;39m - Could not detect default configuration classes for test class [com.technoelevate.springboot.AdminTestService]: AdminTestService does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+2021-11-26 09:50:25,828  [main]  [36mo.s.t.c.s.DefaultTestContextBootstrapper[0;39m - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener] 
+2021-11-26 09:50:25,830  [main]  [36mo.s.t.c.s.DefaultTestContextBootstrapper[0;39m - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19b6b7e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c332922, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6b8773c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74534564, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5876cd86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d398593, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d70dab8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53e6c017, org.springframework.test.context.event.EventPublishingTestExecutionListener@3d123d10, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ca6323c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27b89e0a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42bb0492, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6eed5b68, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4377b35b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@20dc2df1] 
+2021-11-26 09:50:25,937  [main]  [36mc.t.s.s.AdminServiceImpl[0;39m - SUCCESSFULLY FETCHED.... 
+2021-11-26 09:50:25,994  [SpringApplicationShutdownHook]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:50:26,015  [SpringApplicationShutdownHook]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-11-26 09:50:26,050  [SpringApplicationShutdownHook]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-11-26 09:55:31,458  [Thread-4]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:31,467  [Thread-4]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-11-26 09:55:31,485  [Thread-4]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-11-26 09:55:31,756  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:55:31,757  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:55:32,757  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:55:32,759  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces. 
+2021-11-26 09:55:33,117  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:55:33,119  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:55:33,120  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:55:33,196  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:55:33,196  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1420 ms 
+2021-11-26 09:55:33,379  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:55:33,399  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-11-26 09:55:33,422  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-11-26 09:55:33,423  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:55:33,517  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:55:33,518  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:33,779  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:55:33,922  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:55:34,070  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:55:34,241  [restartedMain]  [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: b2ef96f6-a1c8-4854-86ab-3893fdecb815
+ 
+2021-11-26 09:55:34,333  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d17433c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b73f80e, org.springframework.security.web.header.HeaderWriterFilter@734fa326, org.springframework.security.web.csrf.CsrfFilter@3bd4f0d0, org.springframework.security.web.authentication.logout.LogoutFilter@65f8cd7e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a40a7a2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@14c3ad92, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6e7ff463, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53d2a9ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@331dccbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d450f69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b792d8d, org.springframework.security.web.session.SessionManagementFilter@47bdc259, org.springframework.security.web.access.ExceptionTranslationFilter@204909e6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@785cdc69] 
+2021-11-26 09:55:34,415  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:55:34,417  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:55:34,422  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:55:34,432  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:55:34,600  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 2.929 seconds (JVM running for 370.68) 
+2021-11-26 09:55:34,621  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode' (JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
+2021-11-26 09:55:35,843  [Thread-7]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:35,845  [Thread-7]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-11-26 09:55:35,860  [Thread-7]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-11-26 09:55:36,077  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:55:36,078  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:55:36,770  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:55:36,772  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces. 
+2021-11-26 09:55:36,973  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:55:36,974  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:55:36,975  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:55:37,011  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:55:37,012  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 928 ms 
+2021-11-26 09:55:37,081  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:55:37,099  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Starting... 
+2021-11-26 09:55:37,107  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Start completed. 
+2021-11-26 09:55:37,107  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:55:37,369  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:55:37,370  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:37,507  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:55:37,613  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:55:37,740  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:55:37,936  [restartedMain]  [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: 6a26e2c7-ede5-41da-bbae-7e427ce2ab74
+ 
+2021-11-26 09:55:37,960  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cf099ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@899f04c, org.springframework.security.web.header.HeaderWriterFilter@24531095, org.springframework.security.web.csrf.CsrfFilter@283af572, org.springframework.security.web.authentication.logout.LogoutFilter@67d8544d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48f2bbb8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@fbc0d90, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63ca8c52, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c75e5a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cba65a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40d1151d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e38c4e8, org.springframework.security.web.session.SessionManagementFilter@77f71aa5, org.springframework.security.web.access.ExceptionTranslationFilter@200a9bbb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2998c9a1] 
+2021-11-26 09:55:38,019  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:55:38,021  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:55:38,025  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:55:38,035  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:55:38,175  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 2.214 seconds (JVM running for 374.256) 
+2021-11-26 09:55:38,180  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-11-26 09:55:45,519  [Thread-11]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:45,521  [Thread-11]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown initiated... 
+2021-11-26 09:55:45,532  [Thread-11]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown completed. 
+2021-11-26 09:55:45,956  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:55:45,958  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:55:47,479  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:55:47,509  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:55:48,016  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:55:48,018  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:55:48,018  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:55:48,114  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:55:48,115  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2146 ms 
+2021-11-26 09:55:48,279  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:55:48,299  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Starting... 
+2021-11-26 09:55:48,305  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Start completed. 
+2021-11-26 09:55:48,306  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:55:48,814  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:55:48,815  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:55:49,190  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:55:49,464  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:55:49,464  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:55:49,465  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:55:49,465  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:55:49,465  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:55:49,465  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:55:49,480  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ceee500, org.springframework.security.web.context.SecurityContextPersistenceFilter@377539c6, org.springframework.security.web.header.HeaderWriterFilter@56d22da0, org.springframework.security.web.authentication.logout.LogoutFilter@62919317, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@482e9ff3, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@22dc8034, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@210f9181, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66f7172d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71eb153c, org.springframework.security.web.session.SessionManagementFilter@45fbe441, org.springframework.security.web.access.ExceptionTranslationFilter@6e3f0a7b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19c955b6] 
+2021-11-26 09:55:49,492  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:55:49,604  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:55:49,729  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:55:49,731  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:55:49,733  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:55:49,744  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:55:49,862  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 4.123 seconds (JVM running for 385.943) 
+2021-11-26 09:55:49,869  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) found beans of type 'org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean' &adminDao, &balanceDao, &customerDao and found beans of type 'org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension' org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension#0 (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+         - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) found beans of type 'org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration' org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' customerServiceImpl (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
+2021-11-26 09:56:11,661  [main]  [36mc.t.s.CustomerTestService[0;39m - Starting CustomerTestService using Java 13.0.2 on ABHI with PID 6712 (started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:56:11,680  [main]  [36mc.t.s.CustomerTestService[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:56:13,766  [main]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:56:13,963  [main]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 173 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:56:16,845  [main]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:56:17,156  [main]  [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-11-26 09:56:17,300  [main]  [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-11-26 09:56:18,337  [main]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-11-26 09:56:19,035  [main]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-11-26 09:56:19,109  [main]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:56:24,252  [main]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:56:24,276  [main]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:27,075  [main]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:56:32,886  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:56:32,887  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:56:32,888  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:56:32,889  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:56:32,889  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:56:32,890  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:56:33,060  [main]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b26f006, org.springframework.security.web.context.SecurityContextPersistenceFilter@17db90a7, org.springframework.security.web.header.HeaderWriterFilter@6a16ee0d, org.springframework.security.web.authentication.logout.LogoutFilter@6529b078, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@38a6ca39, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@797dd7ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@682fc714, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49868df8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ece7204, org.springframework.security.web.session.SessionManagementFilter@268ee31d, org.springframework.security.web.access.ExceptionTranslationFilter@37351baa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27381497] 
+2021-11-26 09:56:33,190  [main]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:56:35,075  [main]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:56:35,190  [main]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:56:35,272  [main]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:56:35,730  [main]  [36mc.t.s.CustomerTestService[0;39m - Started CustomerTestService in 25.107 seconds (JVM running for 35.89) 
+2021-11-26 09:56:35,871  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:56:35,969  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:56:35,997  [main]  [36mc.t.s.s.CustomerServiceImpl[0;39m - SUCCESSFULLY LOGGED IN Abhi 
+2021-11-26 09:56:36,090  [SpringApplicationShutdownHook]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:36,111  [SpringApplicationShutdownHook]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-11-26 09:56:36,185  [SpringApplicationShutdownHook]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-11-26 09:56:48,498  [Thread-15]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:48,501  [Thread-15]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Shutdown initiated... 
+2021-11-26 09:56:48,512  [Thread-15]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Shutdown completed. 
+2021-11-26 09:56:49,027  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:56:49,028  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:56:50,028  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:56:50,035  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces. 
+2021-11-26 09:56:50,382  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:56:50,384  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:56:50,384  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:56:50,444  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:56:50,445  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1410 ms 
+2021-11-26 09:56:50,591  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:56:50,606  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Starting... 
+2021-11-26 09:56:50,613  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Start completed. 
+2021-11-26 09:56:50,614  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:56:50,739  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:56:50,740  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:50,935  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:56:51,046  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:56:51,193  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:56:51,546  [restartedMain]  [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: 902a7c37-0f31-47c4-9ccd-ee4b7a488ac5
+ 
+2021-11-26 09:56:51,622  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7824fa81, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e9675df, org.springframework.security.web.header.HeaderWriterFilter@15197c0c, org.springframework.security.web.csrf.CsrfFilter@3fe1988d, org.springframework.security.web.authentication.logout.LogoutFilter@66ce9ce9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71fa69e0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2700e77c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4d277c4f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53f2a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6127b219, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f005b2d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fb0b962, org.springframework.security.web.session.SessionManagementFilter@1d00a302, org.springframework.security.web.access.ExceptionTranslationFilter@141b6cb8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@790997f5] 
+2021-11-26 09:56:51,775  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:56:51,778  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:56:51,780  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:56:51,792  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:56:52,080  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 3.419 seconds (JVM running for 448.161) 
+2021-11-26 09:56:52,088  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode' (JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
+2021-11-26 09:56:54,189  [Thread-19]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:54,191  [Thread-19]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Shutdown initiated... 
+2021-11-26 09:56:54,195  [Thread-19]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Shutdown completed. 
+2021-11-26 09:56:54,508  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Starting BankApplication using Java 15.0.2 on ABHI with PID 7808 (C:\Users\MANISH\Downloads\jwt\bank-application\bank-application\target\classes started by MANISH in C:\Users\MANISH\Downloads\jwt\bank-application\bank-application) 
+2021-11-26 09:56:54,508  [restartedMain]  [36mc.t.s.BankApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-11-26 09:56:55,427  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-11-26 09:56:55,481  [restartedMain]  [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces. 
+2021-11-26 09:56:55,993  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http) 
+2021-11-26 09:56:56,002  [restartedMain]  [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-11-26 09:56:56,002  [restartedMain]  [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-26 09:56:56,062  [restartedMain]  [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-11-26 09:56:56,063  [restartedMain]  [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1543 ms 
+2021-11-26 09:56:56,246  [restartedMain]  [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-11-26 09:56:56,260  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Starting... 
+2021-11-26 09:56:56,265  [restartedMain]  [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Start completed. 
+2021-11-26 09:56:56,265  [restartedMain]  [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-11-26 09:56:56,681  [restartedMain]  [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-11-26 09:56:56,681  [restartedMain]  [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-11-26 09:56:57,256  [restartedMain]  [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/v2/api-docs'] with [] 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/ui'] with [] 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources'] with [] 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-resources/configuration/security'] with [] 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/swagger-ui.html'] with [] 
+2021-11-26 09:56:57,546  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure Ant [pattern='/webjars/**'] with [] 
+2021-11-26 09:56:57,555  [restartedMain]  [36mo.s.s.w.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23f4997c, org.springframework.security.web.context.SecurityContextPersistenceFilter@50a0e90c, org.springframework.security.web.header.HeaderWriterFilter@1e78e4f4, org.springframework.security.web.authentication.logout.LogoutFilter@1eadc858, com.technoelevate.springboot.filter.CustomerAuthorizationFilter@4003c826, com.technoelevate.springboot.filter.CustomerAuthenticationFilter@d97f9b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bdb4c07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd5ccc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42ae7012, org.springframework.security.web.session.SessionManagementFilter@4cc0f880, org.springframework.security.web.access.ExceptionTranslationFilter@5d8acf50, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4141c6e7] 
+2021-11-26 09:56:57,562  [restartedMain]  [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-11-26 09:56:57,641  [restartedMain]  [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-11-26 09:56:57,824  [restartedMain]  [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-26 09:56:57,826  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed 
+2021-11-26 09:56:57,827  [restartedMain]  [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s) 
+2021-11-26 09:56:57,843  [restartedMain]  [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references 
+2021-11-26 09:56:57,992  [restartedMain]  [36mc.t.s.BankApplication[0;39m - Started BankApplication in 3.646 seconds (JVM running for 454.072) 
+2021-11-26 09:56:58,003  [restartedMain]  [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) found beans of type 'org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean' &balanceDao, &adminDao, &customerDao and found beans of type 'org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension' org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension#0 (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+         - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) found beans of type 'org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration' org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' customerServiceImpl (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
